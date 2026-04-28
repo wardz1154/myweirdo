@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Press to Continue</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      min-height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #ffc8b3;
+      background-image: url('./background.jpg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+    }
+    .container { text-align: center; padding: 2rem; background: rgba(255,255,255,0.96); border-radius: 16px; box-shadow: 0 16px 40px rgba(0,0,0,0.1); max-width: 420px; width: 100%; }
+    h1 { margin-bottom: 1rem; color: #4a2f21; }
+    p { margin-bottom: 2rem; color: #4a2f21; }
+    button { background: #ff9f7f; color: #ffffff; border: none; border-radius: 999px; padding: 0.9rem 1.8rem; font-size: 1rem; cursor: pointer; transition: background 0.2s ease; }
+    button:hover { background: #ffb99d; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Hi Weirdo!</h1>
+    <p>You finally checked your email hehe You told me to make an effort, and this is what I could come up with for now. It might not be handwritten, but I hope it still carries the same meaning and impact.
+</p>
+    <button onclick="location.href='page2.html'">Go to Next Page</button>
+  </div>
+</body>
+</html>
